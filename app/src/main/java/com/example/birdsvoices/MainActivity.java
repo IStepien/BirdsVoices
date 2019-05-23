@@ -25,8 +25,9 @@ public class MainActivity extends AppCompatActivity {
 
         int bird = Integer.parseInt((String) view.getTag());
         Log.i("info","bird tag: "+bird );
+
         switch (bird){
-            case 0:
+                case 0:
                 mediaPlayer = MediaPlayer.create(this, R.raw.bazant);
                 mediaPlayer.start();
                 break;
@@ -54,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 mediaPlayer = MediaPlayer.create(this, R.raw.slowik_szary);
                 mediaPlayer.start();
                 break;
-            case 8:
+            case 7:
                 mediaPlayer = MediaPlayer.create(this, R.raw.wrobel);
                 mediaPlayer.start();
                 break;
