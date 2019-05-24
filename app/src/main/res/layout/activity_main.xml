@@ -33,7 +33,7 @@
             android:onClick="play"
             android:scaleType="fitXY"
             android:src="@drawable/bazant"
-            android:tag="0"
+            android:tag="bazant"
             app:layout_column="0"
             app:layout_gravity="center"
             app:layout_row="0" />
@@ -46,7 +46,7 @@
             android:onClick="play"
             android:scaleType="fitXY"
             android:src="@drawable/dzwoniec"
-            android:tag="2"
+            android:tag="dzwoniec"
             app:layout_column="0"
             app:layout_gravity="center"
             app:layout_row="1" />
@@ -59,7 +59,7 @@
             android:onClick="play"
             android:scaleType="fitXY"
             android:src="@drawable/gil"
-            android:tag="4"
+            android:tag="gil"
             app:layout_column="0"
             app:layout_gravity="center"
             app:layout_row="2" />
@@ -72,7 +72,7 @@
             android:onClick="play"
             android:scaleType="fitXY"
             android:src="@drawable/kos"
-            android:tag="6"
+            android:tag="kos"
             app:layout_column="0"
             app:layout_gravity="center"
             app:layout_row="3" />
@@ -85,7 +85,7 @@
             android:onClick="play"
             android:scaleType="fitXY"
             android:src="@drawable/kwiczol"
-            android:tag="1"
+            android:tag="kwiczol"
             app:layout_column="1"
             app:layout_gravity="center"
             app:layout_row="0" />
@@ -98,7 +98,7 @@
             android:onClick="play"
             android:scaleType="fitXY"
             android:src="@drawable/puszczyk"
-            android:tag="3"
+            android:tag="puszczyk"
             app:layout_column="1"
             app:layout_gravity="center"
             app:layout_row="1" />
@@ -111,7 +111,7 @@
             android:onClick="play"
             android:scaleType="fitXY"
             android:src="@drawable/slowik_szary"
-            android:tag="5"
+            android:tag="slowik_szary"
             app:layout_column="1"
             app:layout_gravity="center"
             app:layout_row="2" />
@@ -124,7 +124,7 @@
             android:onClick="play"
             android:scaleType="fitXY"
             android:src="@drawable/wrobel"
-            android:tag="7"
+            android:tag="wrobel"
             app:layout_column="1"
             app:layout_gravity="center"
             app:layout_row="3" />
@@ -146,4 +146,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="stop"
+        android:text="@string/stopButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout" />
 </androidx.constraintlayout.widget.ConstraintLayout>

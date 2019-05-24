@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">BirdsVoices</string>
     <string name="headingTextView">Click on bird and listen</string>
+    <string name="stopButton">STOP</string>
 </resources>
